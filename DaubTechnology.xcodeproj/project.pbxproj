@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8566DC8F2057548A00A2F994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DC8E2057548A00A2F994 /* AppDelegate.m */; };
+		8566DC922057548A00A2F994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DC912057548A00A2F994 /* ViewController.m */; };
+		8566DC952057548A00A2F994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8566DC932057548A00A2F994 /* Main.storyboard */; };
+		8566DC972057548A00A2F994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8566DC962057548A00A2F994 /* Assets.xcassets */; };
+		8566DC9A2057548A00A2F994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8566DC982057548A00A2F994 /* LaunchScreen.storyboard */; };
+		8566DC9D2057548A00A2F994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DC9C2057548A00A2F994 /* main.m */; };
+		8566DCA72057548A00A2F994 /* DaubTechnologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCA62057548A00A2F994 /* DaubTechnologyTests.m */; };
+		8566DCB22057548A00A2F994 /* DaubTechnologyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCB12057548A00A2F994 /* DaubTechnologyUITests.m */; };
+		8566DCC1205757BF00A2F994 /* DrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCC0205757BF00A2F994 /* DrawingBoardView.m */; };
+		8566DCC4205758A300A2F994 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCC3205758A300A2F994 /* DrawingViewController.m */; };
+		8566DCC72057724C00A2F994 /* ToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCC62057724C00A2F994 /* ToolBarView.m */; };
+		8566DCCA20577B2500A2F994 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCC920577B2500A2F994 /* DrawView.m */; };
+		8566DCCD2057824900A2F994 /* DrawLinePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCCC2057824900A2F994 /* DrawLinePath.m */; };
+		8566DCD02057836500A2F994 /* YZXDrawManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8566DCCF2057836500A2F994 /* YZXDrawManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8566DCA32057548A00A2F994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8566DC822057548A00A2F994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8566DC892057548A00A2F994;
+			remoteInfo = DaubTechnology;
+		};
+		8566DCAE2057548A00A2F994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8566DC822057548A00A2F994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8566DC892057548A00A2F994;
+			remoteInfo = DaubTechnology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8566DC8A2057548A00A2F994 /* DaubTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaubTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8566DC8D2057548A00A2F994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8566DC8E2057548A00A2F994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8566DC902057548A00A2F994 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8566DC912057548A00A2F994 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8566DC942057548A00A2F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8566DC962057548A00A2F994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8566DC992057548A00A2F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8566DC9B2057548A00A2F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8566DC9C2057548A00A2F994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8566DCA22057548A00A2F994 /* DaubTechnologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaubTechnologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8566DCA62057548A00A2F994 /* DaubTechnologyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaubTechnologyTests.m; sourceTree = "<group>"; };
+		8566DCA82057548A00A2F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8566DCAD2057548A00A2F994 /* DaubTechnologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaubTechnologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8566DCB12057548A00A2F994 /* DaubTechnologyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaubTechnologyUITests.m; sourceTree = "<group>"; };
+		8566DCB32057548A00A2F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8566DCBF205757BF00A2F994 /* DrawingBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingBoardView.h; sourceTree = "<group>"; };
+		8566DCC0205757BF00A2F994 /* DrawingBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardView.m; sourceTree = "<group>"; };
+		8566DCC2205758A300A2F994 /* DrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		8566DCC3205758A300A2F994 /* DrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		8566DCC52057724C00A2F994 /* ToolBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBarView.h; sourceTree = "<group>"; };
+		8566DCC62057724C00A2F994 /* ToolBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBarView.m; sourceTree = "<group>"; };
+		8566DCC820577B2500A2F994 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		8566DCC920577B2500A2F994 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		8566DCCB2057824900A2F994 /* DrawLinePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawLinePath.h; sourceTree = "<group>"; };
+		8566DCCC2057824900A2F994 /* DrawLinePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLinePath.m; sourceTree = "<group>"; };
+		8566DCCE2057836500A2F994 /* YZXDrawManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXDrawManager.h; sourceTree = "<group>"; };
+		8566DCCF2057836500A2F994 /* YZXDrawManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXDrawManager.m; sourceTree = "<group>"; };
+		8566DCD220579DDB00A2F994 /* YZXDrawHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXDrawHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8566DC872057548A00A2F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DC9F2057548A00A2F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DCAA2057548A00A2F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8566DC812057548A00A2F994 = {
+			isa = PBXGroup;
+			children = (
+				8566DC8C2057548A00A2F994 /* DaubTechnology */,
+				8566DCA52057548A00A2F994 /* DaubTechnologyTests */,
+				8566DCB02057548A00A2F994 /* DaubTechnologyUITests */,
+				8566DC8B2057548A00A2F994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8566DC8B2057548A00A2F994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8566DC8A2057548A00A2F994 /* DaubTechnology.app */,
+				8566DCA22057548A00A2F994 /* DaubTechnologyTests.xctest */,
+				8566DCAD2057548A00A2F994 /* DaubTechnologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8566DC8C2057548A00A2F994 /* DaubTechnology */ = {
+			isa = PBXGroup;
+			children = (
+				8566DC8D2057548A00A2F994 /* AppDelegate.h */,
+				8566DC8E2057548A00A2F994 /* AppDelegate.m */,
+				8566DC902057548A00A2F994 /* ViewController.h */,
+				8566DC912057548A00A2F994 /* ViewController.m */,
+				8566DCD220579DDB00A2F994 /* YZXDrawHeader.h */,
+				8566DCCE2057836500A2F994 /* YZXDrawManager.h */,
+				8566DCCF2057836500A2F994 /* YZXDrawManager.m */,
+				8566DCC2205758A300A2F994 /* DrawingViewController.h */,
+				8566DCC3205758A300A2F994 /* DrawingViewController.m */,
+				8566DCBF205757BF00A2F994 /* DrawingBoardView.h */,
+				8566DCC0205757BF00A2F994 /* DrawingBoardView.m */,
+				8566DCC820577B2500A2F994 /* DrawView.h */,
+				8566DCC920577B2500A2F994 /* DrawView.m */,
+				8566DCCB2057824900A2F994 /* DrawLinePath.h */,
+				8566DCCC2057824900A2F994 /* DrawLinePath.m */,
+				8566DCC52057724C00A2F994 /* ToolBarView.h */,
+				8566DCC62057724C00A2F994 /* ToolBarView.m */,
+				8566DC932057548A00A2F994 /* Main.storyboard */,
+				8566DC962057548A00A2F994 /* Assets.xcassets */,
+				8566DC982057548A00A2F994 /* LaunchScreen.storyboard */,
+				8566DC9B2057548A00A2F994 /* Info.plist */,
+				8566DC9C2057548A00A2F994 /* main.m */,
+			);
+			path = DaubTechnology;
+			sourceTree = "<group>";
+		};
+		8566DCA52057548A00A2F994 /* DaubTechnologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8566DCA62057548A00A2F994 /* DaubTechnologyTests.m */,
+				8566DCA82057548A00A2F994 /* Info.plist */,
+			);
+			path = DaubTechnologyTests;
+			sourceTree = "<group>";
+		};
+		8566DCB02057548A00A2F994 /* DaubTechnologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8566DCB12057548A00A2F994 /* DaubTechnologyUITests.m */,
+				8566DCB32057548A00A2F994 /* Info.plist */,
+			);
+			path = DaubTechnologyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8566DC892057548A00A2F994 /* DaubTechnology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8566DCB62057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnology" */;
+			buildPhases = (
+				8566DC862057548A00A2F994 /* Sources */,
+				8566DC872057548A00A2F994 /* Frameworks */,
+				8566DC882057548A00A2F994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaubTechnology;
+			productName = DaubTechnology;
+			productReference = 8566DC8A2057548A00A2F994 /* DaubTechnology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8566DCA12057548A00A2F994 /* DaubTechnologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8566DCB92057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnologyTests" */;
+			buildPhases = (
+				8566DC9E2057548A00A2F994 /* Sources */,
+				8566DC9F2057548A00A2F994 /* Frameworks */,
+				8566DCA02057548A00A2F994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8566DCA42057548A00A2F994 /* PBXTargetDependency */,
+			);
+			name = DaubTechnologyTests;
+			productName = DaubTechnologyTests;
+			productReference = 8566DCA22057548A00A2F994 /* DaubTechnologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8566DCAC2057548A00A2F994 /* DaubTechnologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8566DCBC2057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnologyUITests" */;
+			buildPhases = (
+				8566DCA92057548A00A2F994 /* Sources */,
+				8566DCAA2057548A00A2F994 /* Frameworks */,
+				8566DCAB2057548A00A2F994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8566DCAF2057548A00A2F994 /* PBXTargetDependency */,
+			);
+			name = DaubTechnologyUITests;
+			productName = DaubTechnologyUITests;
+			productReference = 8566DCAD2057548A00A2F994 /* DaubTechnologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8566DC822057548A00A2F994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "尹星";
+				TargetAttributes = {
+					8566DC892057548A00A2F994 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8566DCA12057548A00A2F994 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8566DC892057548A00A2F994;
+					};
+					8566DCAC2057548A00A2F994 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8566DC892057548A00A2F994;
+					};
+				};
+			};
+			buildConfigurationList = 8566DC852057548A00A2F994 /* Build configuration list for PBXProject "DaubTechnology" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8566DC812057548A00A2F994;
+			productRefGroup = 8566DC8B2057548A00A2F994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8566DC892057548A00A2F994 /* DaubTechnology */,
+				8566DCA12057548A00A2F994 /* DaubTechnologyTests */,
+				8566DCAC2057548A00A2F994 /* DaubTechnologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8566DC882057548A00A2F994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566DC9A2057548A00A2F994 /* LaunchScreen.storyboard in Resources */,
+				8566DC972057548A00A2F994 /* Assets.xcassets in Resources */,
+				8566DC952057548A00A2F994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DCA02057548A00A2F994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DCAB2057548A00A2F994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8566DC862057548A00A2F994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566DCC72057724C00A2F994 /* ToolBarView.m in Sources */,
+				8566DCC4205758A300A2F994 /* DrawingViewController.m in Sources */,
+				8566DCC1205757BF00A2F994 /* DrawingBoardView.m in Sources */,
+				8566DC922057548A00A2F994 /* ViewController.m in Sources */,
+				8566DCCD2057824900A2F994 /* DrawLinePath.m in Sources */,
+				8566DCCA20577B2500A2F994 /* DrawView.m in Sources */,
+				8566DC9D2057548A00A2F994 /* main.m in Sources */,
+				8566DC8F2057548A00A2F994 /* AppDelegate.m in Sources */,
+				8566DCD02057836500A2F994 /* YZXDrawManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DC9E2057548A00A2F994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566DCA72057548A00A2F994 /* DaubTechnologyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566DCA92057548A00A2F994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566DCB22057548A00A2F994 /* DaubTechnologyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8566DCA42057548A00A2F994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8566DC892057548A00A2F994 /* DaubTechnology */;
+			targetProxy = 8566DCA32057548A00A2F994 /* PBXContainerItemProxy */;
+		};
+		8566DCAF2057548A00A2F994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8566DC892057548A00A2F994 /* DaubTechnology */;
+			targetProxy = 8566DCAE2057548A00A2F994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8566DC932057548A00A2F994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8566DC942057548A00A2F994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8566DC982057548A00A2F994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8566DC992057548A00A2F994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8566DCB42057548A00A2F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8566DCB52057548A00A2F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8566DCB72057548A00A2F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY93B32LV3;
+				INFOPLIST_FILE = DaubTechnology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8566DCB82057548A00A2F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY93B32LV3;
+				INFOPLIST_FILE = DaubTechnology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8566DCBA2057548A00A2F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaubTechnologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaubTechnology.app/DaubTechnology";
+			};
+			name = Debug;
+		};
+		8566DCBB2057548A00A2F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaubTechnologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaubTechnology.app/DaubTechnology";
+			};
+			name = Release;
+		};
+		8566DCBD2057548A00A2F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaubTechnologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaubTechnology;
+			};
+			name = Debug;
+		};
+		8566DCBE2057548A00A2F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaubTechnologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phicomm.pay.DaubTechnologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaubTechnology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8566DC852057548A00A2F994 /* Build configuration list for PBXProject "DaubTechnology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8566DCB42057548A00A2F994 /* Debug */,
+				8566DCB52057548A00A2F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8566DCB62057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8566DCB72057548A00A2F994 /* Debug */,
+				8566DCB82057548A00A2F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8566DCB92057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8566DCBA2057548A00A2F994 /* Debug */,
+				8566DCBB2057548A00A2F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8566DCBC2057548A00A2F994 /* Build configuration list for PBXNativeTarget "DaubTechnologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8566DCBD2057548A00A2F994 /* Debug */,
+				8566DCBE2057548A00A2F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8566DC822057548A00A2F994 /* Project object */;
+}
